@@ -14,7 +14,7 @@ driver.get("https://maps.google.com")
 #Encontramos el ID y buscamos Dentista en Guadalajara
 
 inputElement = driver.find_element_by_id("searchboxinput")
-inputElement.send_keys('Comida Zapopan')
+inputElement.send_keys('Dentista Guadalajara')
 
 buttonElement = driver.find_element_by_id("searchbox-searchbutton").click()
 
